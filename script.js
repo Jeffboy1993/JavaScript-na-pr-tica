@@ -24,6 +24,7 @@ const obterCategoria = (matriz, nomeCategoria) => matriz.find((item) => item[0] 
 // Atualizar valores da matriz //
 const atualizaValorCategoria = (categoria, valor) => categoria[1] = somaValor(categoria[1], valor);
 
+// Atualizar interface //
 const atualizarInterface = () => {
 
     matrizGastos.forEach(([nome, valor]) =>{
