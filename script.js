@@ -45,7 +45,7 @@ function adicionarGasto() {
         return;
     }
     const categoria = obterCategoria(matrizGastos, categoriaInformada);
-    const total = obterCategoria(matrizGastos, "total");
+    const total = obterCategoria(matrizGastos, "Total");
 
     atualizaValorCategoria(categoria, valorInformado);
     atualizaValorCategoria(total, valorInformado);
